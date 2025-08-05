@@ -8,7 +8,7 @@ random_number = random.randint(1, 100)
 if StudentsClass == "C01":
     StudentsList = ['Aidil', 'Shah', 'Iskadar', 'Yohannes', 'Chris','Hafiz','Sahirah','Ain','Cheng','Rabbiatul','Wiyah','Lionel','Syafiee']
 else:
-    StudentsList = ['Abdul', 'Azmin', 'Aiman', 'Wafi', 'Blessley','Fahrin','Balqis','Ave','Tira','Siti']
+    StudentsList = ['Abdul', 'Azmin', 'Aiman', 'Wafi', 'Blessley','Fahrin','Balqis','Ave','Tira','Siti','Syadiq','Dorrothy','Allyne','Mia','Wane']
 
 random_choice = random.choice(StudentsList)
 

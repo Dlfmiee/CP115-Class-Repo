@@ -1,9 +1,9 @@
 import math
-#INPUT
-Radius = input("Enter radius: ")
+# INPUT
+Radius = float(input("Enter radius: "))
 
 # PROCESS
-circle_area = math.pi*(Radius*2)
+circle_area = math.pi*(Radius**2)
 
 # OUTPUT
-print(float("Circle Area :" + circle_area))
+print("Circle Area :" + str(circle_area))
