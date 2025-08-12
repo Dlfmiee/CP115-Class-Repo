@@ -5,6 +5,6 @@ Number_Of_Tickets = 3
 is_weekend = True                 
 has_Student_Discount = False        
 Popcorn_Combo = "Large"            
-TOTAL_PRICE = 54.00              
+Total_Price = 54.00              
 customer_age = 25                
 member_id = "M1234"
