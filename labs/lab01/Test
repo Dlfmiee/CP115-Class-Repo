@@ -1,29 +1,8 @@
-import random
+student_name = "Ali"
+uppercase_name = student_name.upper()
+print(uppercase_name)  
+print(student_name)    
 
-def guessing_game():
-    number_to_guess = random.randint(1, 10)
-    attempts = 0
-    print("Welcome to the Guessing Game!")
-    print("I'm thinking of a number between 1 and 10.")
-
-    while True:
-        guess = input("Enter your guess: ")
-        
-        # Check if the input is a number
-        if not guess.isdigit():
-            print("Please enter a valid number.")
-            continue
-        
-        guess = int(guess)
-        attempts += 1
-        
-        if guess < number_to_guess:
-            print("Too low! Try again.")
-        elif guess > number_to_guess:
-            print("Too high! Try again.")
-        else:
-            print(f"Congratulations! You've guessed the number {number_to_guess} in {attempts} attempts.")
-            break
-
-if __name__ == "__main__":
-    guessing_game()
+# Or you can reassign to the same variable
+student_name = student_name.upper()
+print(student_name)
