@@ -1,1 +1,1 @@
-print("Hello everyone, Lab 01")
+print("Cuba try test")
