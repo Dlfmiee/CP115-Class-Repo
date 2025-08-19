@@ -1,8 +1,17 @@
-student_name = "Ali"
-uppercase_name = student_name.upper()
-print(uppercase_name)  
-print(student_name)    
+name = input("Masukkan nama anda:")
+age = (int(input("Masukkan umur anda:")))
 
-# Or you can reassign to the same variable
-student_name = student_name.upper()
-print(student_name)
+if True :
+    age >= 18
+    eligible = "Eligible to vote"
+else:
+    eligible = "Not eligible to vote"
+
+print (f"""Nama : {name}\nUmur : {age}\nAnd you're {eligible}""")
+
+num1 = (float(input("Now enter number 1 : ")))
+num2 = (float(input("Now enter number 2 : ")))
+
+sum = num1 + num2 
+
+print (f"Number 1 : {num1}\nNumber 2 : {num2}\nTotal sum of two number : {sum}")
