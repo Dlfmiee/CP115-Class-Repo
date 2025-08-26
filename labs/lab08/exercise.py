@@ -8,4 +8,4 @@ print(f"Line 4: y = {y}")
 print("Line 5: All good so far")
 
 # This line has an intentional error
-print(unknown_variable)  # This will cause an error
+print(unknown_variable)  # This will cause the error
