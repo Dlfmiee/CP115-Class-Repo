@@ -10,7 +10,7 @@ fig, ax = plt.subplots()
 line, = ax.plot(x, [math.sin(i) for i in x])
 ax.set_xlim(0, max(x))
 ax.set_ylim(-1.1, 1.1)
-ax.set_title("Animated Sine Wave")
+ax.set_title("Saya pun taktau")
 
 # Update function for animation
 def update(frame):
@@ -22,6 +22,6 @@ def update(frame):
 anim = FuncAnimation(fig, update, frames=120, interval=50, blit=True)
 
 # Save as GIF
-anim.save("animated_sine_wave.gif", writer=PillowWriter(fps=20))
+anim.save("animated_sine_wave.gif", writer=PillowWriter(fps=60))
 
 plt.show()
