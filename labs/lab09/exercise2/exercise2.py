@@ -1,7 +1,7 @@
-employee_name = input("Enter Your Name : ")
-base_salary = float(input("Base Salary : "))
-overtime_hours = int(input("Overtime Hours : "))
-tax_status = input("Status : ")
+employee_name = input()
+base_salary = float(input())
+overtime_hours = int(input())
+tax_status = input()
 
 # TODO your code here
 
@@ -23,8 +23,8 @@ else:
 
 overtime_pay = 35 * overtime_hours
 gross_income = base_salary + overtime_pay
-net_salary = gross_income*tax_rate*0.89*0.5
+net_salary = gross_income * (1 - tax_rate) * (1 - 0.115)
 
 print(employee_name)
-print((tax_rate))
+print(f"{tax_rate * 100:.0f}%")
 print(f"{net_salary:.2f}")

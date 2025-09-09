@@ -19,6 +19,6 @@ Percentage5 = (Score5/Total_Points)*100
 print(f"Score 1 : {Score1}\nScore 2 : {Score2}\nScore 3 : {Score3}\nScore 4 : {Score4}\nScore 5 : {Score5}\n")
 print(f"Total Points : {Total_Points}")
 print(f"Average : {Average}")
-print(f"Percentage Score 1 : {Percentage1}%\nPercentage Score 2 : {Percentage2}%\nPercentage Score 3 : {Percentage3}%\nPercentage Score 4 : {Percentage4}%\nPercentage Score 5 : {Percentage5}%\n")
+print(f"Percentage Score 1 : {Percentage1:.0f}%\nPercentage Score 2 : {Percentage2:.0f}%\nPercentage Score 3 : {Percentage3:.0f}%\nPercentage Score 4 : {Percentage4:.0f}%\nPercentage Score 5 : {Percentage5:.0f}%\n")
 
 
