@@ -24,11 +24,11 @@ if medical_clearance.lower() == "pass":
 
 if requirements_met == 5 and applicant_age >= 21:
     license_class = "Class A (Commercial)"
-elif requirements_met >= 4 and applicant_age >= 18:
+elif requirements_met >= 4 and applicant_age >= 18 and driving_score >= 85:
     license_class = "Class B (Regular)"
-elif 2 <= requirements_met <= 3:
+elif 2 <= requirements_met <= 4:
     license_class = "Restricted License"
 else:
     license_class = "Application Denied"
-
+    
 print(license_class)
