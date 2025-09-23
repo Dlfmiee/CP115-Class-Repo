@@ -15,7 +15,6 @@ service_charge = 8
 sewerage_charge = 2
 total_bill = water_cost + service_charge + sewerage_charge
 
-
 print(consumption)
 print(water_cost)
 print(total_bill)
