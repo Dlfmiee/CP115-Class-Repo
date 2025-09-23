@@ -7,7 +7,10 @@ medical_clearance = input()
 # TODO: Your code here
 requirements_met = 0
 
-if vision_test == "pass":
+if applicant_age >= 18:
+    requirements_met += 1
+
+if vision_test.lower() == "pass":
     requirements_met += 1
 
 if written_score >= 80:
@@ -16,17 +19,16 @@ if written_score >= 80:
 if driving_score >= 85:
     requirements_met += 1
 
-if medical_clearance == "pass":
+if medical_clearance.lower() == "pass":
     requirements_met += 1
 
-if requirements_met == 4 and applicant_age >= 21:
+if requirements_met == 5 and applicant_age >= 21:
     license_class = "Class A (Commercial)"
-elif requirements_met == 4 and applicant_age >= 18:
+elif requirements_met >= 4 and applicant_age >= 18:
     license_class = "Class B (Regular)"
 elif 2 <= requirements_met <= 3:
     license_class = "Restricted License"
 else:
     license_class = "Application Denied"
-
 
 print(license_class)

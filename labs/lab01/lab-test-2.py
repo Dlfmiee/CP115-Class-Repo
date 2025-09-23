@@ -1,10 +1,10 @@
-kWh = float(input("Enter Usage : "))
-charges = None
-if kWh <= 100:
-    charges = kWh*0.30
-elif kWh <= 200 :
-    charges = ((kWh-100)*0.50)+30
-else:
-    charges = ((kWh-200)*0.75)+50+30
+import math
 
-(print(f"Total bill : {charges}"))
+for i in range(4):
+    radius = float(input(f"Enter radius {i+1}: "))
+    if radius > 0:
+        area = math.pi * radius ** 2
+        print(f"Area of circle {i+1}: {area:.2f}")
+    else:
+        print("Invalid radius, must be positive!")
+        break
