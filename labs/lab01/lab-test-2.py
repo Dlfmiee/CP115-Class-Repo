@@ -6,5 +6,5 @@ for i in range(4):
         area = math.pi * radius ** 2
         print(f"Area of circle {i+1}: {area:.2f}")
     else:
-        print("Invalid radius, must be positive!")
+        print("Invalid radius, must be positive")
         break

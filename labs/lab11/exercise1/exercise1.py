@@ -2,7 +2,7 @@ num_rounds = int(input())
 
 # TODO: Your code here
 # Use input() inside the loop to get each round's score
-total_score = 0.0
+total_score = 0
 rounds_processed = 0
 
 for i in range(num_rounds):
