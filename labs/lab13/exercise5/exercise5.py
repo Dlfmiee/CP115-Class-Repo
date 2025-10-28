@@ -15,5 +15,5 @@ while True:
         total_withdrawn += amount
         amount = int(input())
 
-print(valid_count)      # Number of valid withdrawals
-print(total_withdrawn)  # Total amount from valid withdrawals only
+print(valid_count)
+print(total_withdrawn)

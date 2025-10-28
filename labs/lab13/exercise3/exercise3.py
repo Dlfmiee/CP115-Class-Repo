@@ -5,7 +5,7 @@ total_grade = 0
 valid_count = 0
 
 while grade != -1:  # stop when -1 is entered
-    if 0 <= grade <= 100:      # valid grade
+    if 0 <= grade <= 100:
         total_grade += grade
         valid_count += 1
 
